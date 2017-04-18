@@ -62,7 +62,7 @@ object Main {
       println("Jestem: " + prototype1.showName() + "kosztuje: " + prototype1.showPrice())
     }
 
-    val prototype2: ProductPrototype = factory.getPrototype(str2)[ProductPrototype]
+    val prototype2: ProductPrototype = factory.getPrototype(str3)[ProductPrototype]
     if (prototype2 == null) {
       println("Nie ma takiego produktu w sklepie")
     }
